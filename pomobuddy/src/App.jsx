@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 // Main App component for the Pomodoro Timer
 const App = () => {
   // Define work and break durations in seconds
-  const WORK_TIME = 25 * 60; // 25 minutes
+  const WORK_TIME = 60 * 60; // 25 minutes
   const SHORT_BREAK_TIME = 5 * 60; // 5 minutes
   const LONG_BREAK_TIME = 15 * 60; // 15 minutes
   const LONG_BREAK_INTERVAL = 4; // Long break after 4 work sessions
